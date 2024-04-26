@@ -9,7 +9,10 @@
   "jest": {
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    },
+    "testMatch": [
+      "**/?(*.)+(spec|test).ts"
+    ]
   },
   "author": "Putra Prasetya",
   "license": "ISC",
